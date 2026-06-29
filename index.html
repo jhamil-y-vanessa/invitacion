@@ -894,7 +894,7 @@
   <div class="blob-bot"></div>
 
   <!-- Flores decorativas top-left -->
-  <svg class="flores-svg top-left" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class="flores-svg top-left" viewBox="0 0 220 220" fill="none" xmlns="http://w3.org">
     <circle cx="65" cy="65" r="55" fill="rgba(74,112,152,0.13)"/>
     <circle cx="110" cy="45" r="35" fill="rgba(74,112,152,0.09)"/>
     <circle cx="45" cy="110" r="40" fill="rgba(184,149,106,0.1)"/>
@@ -905,7 +905,7 @@
   </svg>
 
   <!-- Flores decorativas bot-right -->
-  <svg class="flores-svg bot-right" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <svg class="flores-svg bot-right" viewBox="0 0 220 220" fill="none" xmlns="http://w3.org">
     <circle cx="65" cy="65" r="55" fill="rgba(74,112,152,0.13)"/>
     <circle cx="110" cy="45" r="35" fill="rgba(74,112,152,0.09)"/>
     <circle cx="45" cy="110" r="40" fill="rgba(184,149,106,0.1)"/>
@@ -913,7 +913,8 @@
     <circle cx="115" cy="78" r="14" fill="rgba(184,149,106,0.12)"/>
   </svg>
 
-  <div class="portada-contenido">
+  <!-- ⬇️ TU LÍNEA DE CONTROL EDITABLE (Cambia -40px por lo que desees) ⬇️ -->
+  <div class="portada-contenido" style="margin-top: -90px;">
     <p class="nuestra-boda-label">NUESTRA BODA</p>
 
     <svg class="divisor-svg" viewBox="0 0 120 20" fill="currentColor">
@@ -926,31 +927,25 @@
 
    <div class="nombres-portada" style="line-height: 1.4; text-align: center;">
     <!-- PRIMER INTEGRANTE -->
-    <!-- Ajusta el tamaño del NOMBRE aquí (ej: 1.8rem) -->
-    <span style="font-size: 3.1rem; display: block; font-weight: 500;">Jhamil Scoth</span>
-    <!-- Ajusta el tamaño del APELLIDO aquí (ej: 0.9rem) -->
-    <span style="font-size: 2rem; display: block; opacity: 0.8; letter-spacing: 0.15em; margin-top: 4px;">Veizaga Blanco</span>
+    <span style="font-size: 3.1rem; display: block; font-weight: 500; white-space: nowrap;">Jhamil Scoth</span>
+    <span style="font-size: 2rem; display: block; opacity: 0.8; letter-spacing: 0.15em; margin-top: 4px; white-space: nowrap;">Veizaga Blanco</span>
     
     <!-- CONECTOR -->
-    <!-- Ajusta el tamaño del símbolo & aquí (ej: 1.5rem) -->
     <span class="ampersand" style="display: block; font-size: 1.5rem; margin: 12px 0;">&amp;</span>
     
-    <!-- SEGUNDO INTEGRANTE -->
-    <!-- Mantén los mismos tamaños para que se vea simétrico -->
-    <span style="font-size: 2.8rem; display: block; font-weight: 500;">Catherine Vanessa</span>
-    <span style="font-size: 2rem; display: block; opacity: 0.8; letter-spacing: 0.15em; margin-top: 4px;">Quelali Apaza</span>
+    <!-- SEGUNDO INTEGRANTE (Protegido en una sola línea) -->
+    <span style="font-size: 2.8rem; display: block; font-weight: 500; white-space: nowrap;">Catherine Vanessa</span>
+    <span style="font-size: 2rem; display: block; opacity: 0.8; letter-spacing: 0.15em; margin-top: 4px; white-space: nowrap;">Quelali Apaza</span>
 </div>
-
-
 
     <svg class="divisor-svg" viewBox="0 0 120 20" fill="currentColor" style="transform:rotate(180deg);margin-top:0.4rem">
       <path d="M60 10 Q55 2 45 5 Q40 8 42 12 Q45 16 50 14 Q55 12 60 10Z" opacity="0.6"/>
       <path d="M60 10 Q65 2 75 5 Q80 8 78 12 Q75 16 70 14 Q65 12 60 10Z" opacity="0.6"/>
       <circle cx="60" cy="10" r="3" opacity="0.8"/>
     </svg>
-
-    <p class="fecha-portada">SÁBADO · 11 DE JULIO · 2026</p>
     <button class="btn-ingresar" onclick="ingresar()">INGRESAR</button>
+    <p class="fecha-portada">SÁBADO · 11 DE JULIO · 2026</p>
+    
   </div>
 </div>
 
